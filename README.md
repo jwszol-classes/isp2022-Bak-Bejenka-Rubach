@@ -10,7 +10,7 @@ OpenSky -> AWS Lambda -> Amazon DynamoDB -> AWS Lambda -> Amazon S3 -> Mapbox
 ## Used technologies:
 - Python - First Lambda function and data visualisation
 - Node.js - Second Lambda function
-- AWS sewrvices:
+- AWS services:
   - AWS Lambda - Data Processing <!-- (Downloading data, Uploading to DB and Refreshing the website content) -->
   - Amazon DynamoDB - Data storage <!-- in a Table -->
   - Amazon S3 - Hosting of a static website <!-- containing parameters of flights that meet the requirements (we are looking for flights above Poland) in form of JSON file -->
