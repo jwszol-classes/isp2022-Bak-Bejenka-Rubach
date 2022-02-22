@@ -19,8 +19,8 @@ OpenSky -> AWS Lambda -> Amazon DynamoDB -> AWS Lambda -> Amazon S3 -> Mapbox
   - Mapbox -  data visualisation 
 
 ## Program description:
-First lambda function is triggered every minute with use of EventBridge (CloudWatch Events), collects data from OpenSky API and stores them in DynamoDB table. Then second lambda function starts by being triggerd by updates in DynamoDB table. It's reading data from the database and saving in S3 bucket in form oj json file. The bucket is set to be public accessable and its content is available under set URL.</br>
-The next part of the project is visualisation of the data. The program is reading json file from set URL and with use of Mapbox and planes coordinates displays their current position on the map.
+First lambda function is triggered every minute with use of EventBridge (CloudWatch Events), collects data from OpenSky API and stores them in DynamoDB table. Then second lambda function is triggerd by updates in DynamoDB table. It's reading data from the database and saving in S3 bucket in form of json file. The bucket is set to be publicly accessible and its content is available under given URL.</br>
+The next part of the project is visualisation of the data. The program is reading json file from yhe URL and with use of Mapbox and planes coordinates displays their current position on the map.
   
 ## Example of the final effect:
 < place for a picture >
