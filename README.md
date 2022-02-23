@@ -27,5 +27,5 @@ The next part of the project is visualisation of the data. The program is readin
 
 ## Open Sky API
 The OpenSky Network is a non-profit community-based receiver network which has been continuously collecting air traffic surveillance data since 2013. To use this API there is no need to create account and it is free. 
-In used method called get_states(bbox), bbox is a boundries of coordinates that return information about flights bounded by this coordinates. All the data is stored in list of points. 
+In used method called get_states(bbox), bbox is a boundries of coordinates. The function get_states returns information about flights bounded by this coordinates. All the data is stored in list of points. 
 
