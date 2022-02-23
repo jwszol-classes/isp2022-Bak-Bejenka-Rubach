@@ -25,3 +25,7 @@ The next part of the project is visualisation of the data. The program is readin
 ## Example of the final effect:
 ![image](https://user-images.githubusercontent.com/40249412/155287064-26bb79b4-06b1-4bca-a809-7497534a28f2.png)
 
+## Open Sky API
+The OpenSky Network is a non-profit community-based receiver network which has been continuously collecting air traffic surveillance data since 2013. To use this API there is no need to create account and it is free. 
+In used method called get_states(bbox), bbox is a boundries of coordinates that return information about flights bounded by this coordinates. All the data is stored in list of points. 
+
